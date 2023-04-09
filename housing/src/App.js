@@ -8,6 +8,7 @@ import Login from "./components/Login";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import ListingPage from "./components/ListingPage";
 import { Hero } from "./componentss/Hero";
+import { Explore } from "./componentss/Explore";
 
 function App() {
   const [{ listing_result }, dispatch] = useStateValue();
@@ -25,6 +26,8 @@ function App() {
               element={
                 <>
                   <Hero />
+                  <Hero />
+                  {/* <Explore /> */}
                 </>
               }
             />
