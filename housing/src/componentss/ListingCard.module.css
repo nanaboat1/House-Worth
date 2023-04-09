@@ -2,6 +2,7 @@
     height: 250px;  
     max-width: 100%;
     border-radius: 10px;
+    position: relative;
 }   
 .left{
     height: 100%;
@@ -9,5 +10,47 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-
+}
+.rightBg{
+    height: 50%;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    opacity: 0.9;
+    border-radius: 10px;
 }   
+.right{
+    position:absolute;
+    height: 50%;
+    width: 100%;
+    top: 50%;
+    font-size: 1rem;
+}
+.right p:nth-child(1){
+    font-weight: 700;
+    padding: 10px;
+}
+.right p:nth-child(2){
+    padding: 0 10px;
+}
+.right p:nth-child(3){
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius:  10px;
+    font-size:24px;
+    cursor: pointer;
+    text-align: center;
+    transition: width .5s ease;
+    font-weight: 600;
+
+}
+.right p:nth-child(3):hover{
+    border-radius: 10px;
+    width: 100%;
+}
