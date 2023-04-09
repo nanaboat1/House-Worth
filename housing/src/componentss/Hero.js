@@ -11,13 +11,13 @@ export const Hero = () => {
         <div className={classes.nav}>
             <span>HouseWorth</span>
             <ul>
-                <li>Explore</li>
+                <li href= "#explore">Explore</li>
                 <li onClick={showSearch}>Search </li>
                 <li>Sign In as agent</li>
             </ul>
         </div>
-        <div className={classes.searchBar}>
-            { search && <input placeholder="Search ....."></input>}
+        <div className={`${classes.searchBar} ${classes.appear}`}>
+            { search && <input  placeholder="Search ....."></input>}
         </div>
     </div>
   )

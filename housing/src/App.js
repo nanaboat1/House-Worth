@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import ListingPage from "./components/ListingPage";
 import { Hero } from "./componentss/Hero";
 import { Explore } from "./componentss/Explore";
+import HouseListing from "./componentss/HouseListing";
 
 function App() {
   const [{ listing_result }, dispatch] = useStateValue();
@@ -26,12 +27,12 @@ function App() {
               element={
                 <>
                   <Hero />
-                  <Hero />
-                  {/* <Explore /> */}
+                  <HouseListing />
+                  <Explore />
                 </>
               }
             />
-            <Route path="/auth" element={<Login />} />
+            <Route path="/test" element={<HouseListing />} />
             <Route path="/listing/:id" element={<ListingPage />} />
           </Routes>
         </div>

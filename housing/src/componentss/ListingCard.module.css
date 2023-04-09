@@ -1,0 +1,13 @@
+.card{
+    height: 250px;  
+    max-width: 100%;
+    border-radius: 10px;
+}   
+.left{
+    height: 100%;
+    background-image: url("https://www.thehousedesigners.com/images/uploads/SiteImage-Landing-house-plans-with-photos-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}   
