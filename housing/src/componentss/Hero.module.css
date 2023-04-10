@@ -1,13 +1,23 @@
 .hero{
     background: url("https://1.bp.blogspot.com/-PCZaGE3w4f4/YTFQba6oZkI/AAAAAAAABg4/xNqLlKEEqJogw8KUu0DyI7PMw8aiKJmpwCLcBGAsYHQ/s2048/_MG_8397.jpg");
+
     height: 100vh;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 
-
 }
+/* .backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -2;
+} */
 .nav{
     box-sizing: border-box;
     margin-top: 10px;
@@ -20,6 +30,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+.nav span{
+    font-size: x-large;
+    
+  background: #ffffff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #454545); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #454545); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
 
 }
 .nav ul{
